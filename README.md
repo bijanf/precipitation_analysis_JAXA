@@ -39,13 +39,15 @@ The script fetches precipitation data and plots cumulative values across years, 
 ## Project Structure
 
 src/: Contains modular code for data fetching (data_processing.py), plotting (plot_generation.py), and configuration (config.py).
+
 scripts/: Entry point script (run_analysis.py) to execute the analysis.
+
 requirements.txt: Lists necessary Python packages.
 
 
 ## Data Source
 
-The precipitation data is retrieved from the JAXA/GPM_L3/GSMaP.
+The precipitation data is retrieved from the [JAXA/GPM_L3/GSMaP](https://developers.google.com/earth-engine/datasets/catalog/JAXA_GPM_L3_GSMaP_v6_operational).
 
 ## License
 
